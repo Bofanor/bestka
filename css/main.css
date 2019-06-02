@@ -1,366 +1,201 @@
-@font-face {
-	font-family: Muller;
-	src: url(../fonts/Muller.otf);
-}
-
-@font-face {
-	font-family: ProximaNovaCondensed;
-	src: url(../fonts/ProximaNovaCondensed.otf);
-}
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,500,600,700|Roboto:300,400,500');
 
 * {
 	padding: 0;
 	margin: 0;
 }
 
-a {
+body {
+	/*width: 1140px;*/
+	background: #fff;
+    font: 300 14px "Regular";
+    color: #777;
+    line-height: 14px;
+}
+
+/*Шапка сайта*/
+.header {
+    background: url(../img/iphones.png) 700px center no-repeat fixed,
+    			linear-gradient(90deg, #fd712b 0%, #f21680 100%);
+	height: 800px;
+	padding-top: 30px;
+}
+
+.logo__text {
+    color: #fff;
+    font: 700 36px "Dosis";
+	padding-left: 4px;
+	vertical-align: bottom;
+}
+
+.link {
 	color: #fff;
 	text-decoration: none;
 }
 
-li {
+.menu {
+	padding-top: 10px;
+}
+
+.menu__item {
+    font: 400 "Roboto";
+    display: inline-block;
+    color: #fff;
+}
+
+.btn {
+	font-weight: 500;
+	color: #222;
+	background: #fff padding-box;
+	padding: 10px 30px;
+}
+
+.menu__btn {
+	border-radius: 17px;
+}
+
+.sidebar {
+	line-height: 24px;
+	color: #fff;
+	font-family: "Roboto";
+	font-weight: 400;
+}
+
+.sidebar__caption {
+	font-size: 35px;
+	line-height: 40px;
+	font-family: "Dosis";
+	font-weight: 600;
+	margin: 130px 0 15px 0;
+}
+
+.sidebar__desc {
+	font-weight: 300;
+	margin-bottom: 15px;
+}
+
+.sidebar__item {
+	line-height: 14px;
+	margin-bottom: 18px;
 	list-style: none;
 }
 
-body {
-	/*width: 1440px;*/
-	font-size: 18px;
+.list__icon {
+	font-size: 16px;
+	line-height: 16px;
+	margin-right: 20px;
 }
 
-.text-center {
+.form__btn {
+	border: 5px solid rgba(0,0,0,0.1);
+	border-radius: 20px;
+	line-height: 14px;
+	font-family: "Roboto";
+	margin-botton: 200px;
+    margin-top: 35px;
+}
+/*Конец шапки*/
+
+/*Основное*/
+.features {
+	margin-top: 120px;
+	padding-bottom: 120px;
+    border-bottom: 2px solid #eee;
+}
+
+.features__row {
+	margin-top: 65px;
+}
+
+.feature {
 	text-align: center;
 }
 
-/* Шапка */
-header {
-	background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-				url(../img/background.jpg) no-repeat;
-	background-size: cover;
-	height: 730px;
-}
-
-.list, .sign {
-	font-size: 10px;
-	margin-top: 68px;
-}
-
-.insta .logo {
-	margin-top: 48px
-}
-
-.insta div {
-	text-align: center;
-}
-
-.insta a, .bestka, h1, .social {
-	color: #fff;
-	text-transform: uppercase;
-	font-family: Muller;
-}
-
-.bestka {
-	display: block;
+.feature__icon {
 	font-size: 24px;
+    color: #f31f79;
+    width: 75px;
+	height: 75px;
+	line-height: 75px;
+	border-radius: 37px;
+	background-color: rgba(247,250,252,0);
+	text-align: center;
+	border: 1px solid #eeeeee;
 }
 
-h1, .social {
-	font-size: 32px;
-	text-align: center;
-	line-height: normal;
-	margin: 150px 0 0 0;
+.feature__caption {
+	font-size: 24px;
+	line-height: 24px;
+	color: #222;
+	font-family: "Dosis";
+	font-weight: 500;
 }
 
-/* Слайдер */
-.slider {
-	text-align: center;
+.feature__desc {
+	line-height: 24px;
+	margin-top: 15px;
+}
+
+.iphone {
+	background: url(../img/iphone.png) 10% center no-repeat;
+}
+
+.wrap {
+	line-height: 710px;
+}
+
+.aside {
 	display: inline-block;
-	margin-top: 50px;
+	vertical-align: middle;
 }
 
-.slider-2 {
-	text-align: center;
-	display: inline-block;
+.aside__caption {
+	font-size: 36px;
+	line-height: 30px;
+	color: #222;
+	font-family: "Dosis";
+	font-weight: 500;
+	margin-bottom: 22px;
 }
 
-.slider div {
-	padding: 0;
-	outline: none;
+.aside__text {
+	line-height: 24px;
+	margin-bottom: 70px;
 }
 
-.slider img {
-	display: block;
-	margin: 0 auto;
+.aside__desc {
+	line-height: 24px;
+	margin: 0 0 30px 0;
 }
 
-.slider span {
-	font-family: ProximaNovaCondensed;
-	font-size: 18px;
-	line-height: normal;
-	text-align: center;
-	color: rgba(255, 255, 255, 0.6);
+.list__item {
+	font-weight: 400;
+	line-height: 14px;
+	margin-bottom: 18px;
+	list-style: none;
 }
 
-.prev, .next {
-	width: 30px;
-	height: 60px;
-	margin-top: 70px;
+.icon_black {
+    color: #222;
 }
 
-/* Основное */
-main {
-	background: linear-gradient(0deg, rgba(216, 220, 255, 0.9), rgba(216, 220, 255, 0.9)),
-				 url(../img/main-bg.jpg);
-}
-
-h2 {
-	text-transform: uppercase;
-	font-family: ProximaNovaCondensed;
-	font-size: 48px;
-	line-height: normal;
-	padding: 30px 0;
-	text-align: center;
-	color: #3F3F3F;
-}
-
-.tabs-nav a {
-	display: inline-block;
-	width: 115px;
-	height: 115px;
-	text-align: center;
-}
-
-.tabs-nav a.active {
-	background: #BDC4FF;
-	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-}
-
-#tabs span {
-	font-family: ProximaNovaCondensed;
-	font-size: 18px;
-	line-height: normal;
-	display: block;
-	margin-top: 10px;
-	color: #747474;
-	letter-spacing: -0.05em;
-	text-transform: uppercase;
-}
-
-#tabs a.active span {
-	color: #3F3F3F;
-}
-
-.tabs-nav div {
-	display: inline-block;
-	text-align: center;
-}
-
-#tabs img {
-	width: 64px;
-	height: 64px;
-	display: block;
-	margin: 10px auto 0 auto;
-}
-
-.tabs-items {
-	margin-top: 43px;
-}
-
-.desc {
-	height: 250px;
-	padding: 10px 0;
-	background: #BDC4FF;
-	overflow: auto;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.tabs-items p {
-	font-family: ProximaNovaCondensed;
-	font-size: 18px;
-	height: 180px;
-	line-height: normal;
-	padding: 0 10px;
-	vertical-align: top;
-	width: 450px;
-	display: inline-block;
-	color: #3F3F3F;
-}
-
-.tabs-items p:nth-child(1) {
-	font-size: 28px;
-}
-
-.tabs-items p:nth-child(3) {
-	border: none;
-}
-
-.logo {
-	text-align: center;
-}
-
-.logo-2 {
-	margin-top: 50px;
-}
-
-.logo-2 span {
-	color: #fff;
-}
-
-.logo-2 img {
-	height: 40px;
-	width: 40px;
-}
-
-.logo img {
-	display: inline-block;
-	text-align: center;
-}
-
-.year {
-	font-family: Muller;
-	font-size: 18px;
-	line-height: 18px;
-	text-align: center;
-	color: #fff;
-	padding: 15px 0 10px 0;
-}
-
-/* Страница входа и регистрации */
-.header-sign {
-	background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-				url(../img/background.jpg) no-repeat;
-	background-size: cover;
-}
-
-.transparent {
-	background: rgba(255,255,255,0.3);
-	margin-top: 50px;
-	padding: 30px 30px 30px 30px;
-}
-
-input, .btn {
-    background: transparent;
-    margin-top: 20px;
-    border: 5px solid #fff;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25),
-                0 4px 4px rgba(0, 0, 0, 0.25) inset;
-    color: #fff;
-    height: 50px;
-    font-family: Muller;
-    outline: none;
-    font-size: 13px;
-}
-
-input::placeholder {
-	color: #fff;
-}
-
-.aaa {
-	border: none;
-	box-shadow: none;
-}
-
-.sign-btn {
-	transition: 0.5s;
-}
-
-.sign-btn:hover {
-	background: #fff;
-	color: #000;
-}
-
-form a {
-	display: block;
-}
-
-.button {
-    color: #fff;
-    height: 55px;
-    line-height: 50px;
-    font-family: Muller;
-	font-weight: 800;
-	font-size: 18px;
-}
-
-.buttons-nav {
-	margin-bottom: 20px;
-}
-
-#buttons a.active div {
-    border: 5px solid #fff;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25),
-                0 4px 4px rgba(0, 0, 0, 0.25) inset;
-}
-
-/* Медиа-запросы */
 @media(min-width: 576px) {
-    h1, .social {
-        font-size: 42px;
+    .sidebar__caption {
+        font-size: 54px;
+        line-height: 60px;
     }
-    
-    .list, .sign {
-        font-size: 18px;
+
+    .feature {
+	    text-align: inherit;
     }
-    
-    .slider span {
-        font-size: 24px;
-    }
-    
-    #tabs img {
-	    width: 109px;
-	    height: 109px;
-	    margin: 15px auto 0 auto;
-	}
-	
-	.tabs-nav a {
-	    width: 195px;
-	    height: 195px;
-	}
-	
-	#tabs span {
-	    font-size: 29px;
-	    margin-top: 17px;
-	}
-	
-	.desc {
-	    height: 250px;
-	    padding: 35px 0;
-	}
-	
-	.tabs-items p {
-	    font-size: 22px;
-	}
-	
-	input, button {
-		font-size: 14px;
-    }
-    
-@media(min-width: 768px) {
-	h1, .social {
-		font-size: 72px;
-	}
-	
-	.tabs-items p {
-	    border-right: 1px solid #3F3F3F;
-	}
-	
-	.button {
-		font-size: 24px;
-	}
-	
-	input, button {
-		font-size: 16px;
-    }
+
+    .feature__icon {
+	    margin-right: 25px;
+	    float: left;
 }
 
-@media(min-width: 992px) {
-	.tabs-items p {
-	    padding: 0 35px;
-	}
 }
 
-@media(min-width: 1200px) {
-	input, button {
-		font-size: 22px;
-    }
-}
-    
+@media(min-width: 768px){}
+@media(min-width: 992px){}
+@media(min-width: 1200px){}
