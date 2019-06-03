@@ -1,109 +1,222 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Giant</title>
-    <link rel="stylesheet" href="css/bootstrap-grid.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bestka</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
     <link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="slick/slick.css">
+	<link rel="stylesheet" href="slick/slick-theme.css"> 
 </head>
 <body>
-	
-	<header class="container header">
-        <div class="row">
-            <div class="col-12">
-                <div class="logo">
-                	<img class="logo__img" src="img/logo.svg">
-                    <span class="logo__text">Giant</span>
-		        </div>
+	<header>
+		<div class="container">
+		    <div class="row justify-content-between insta">
+			    <div class="col-3 list">
+			        <a href="#" class="list">Список услуг</a>
+			    </div>
+			    <div class="col-4 logo">
+			        <img src="img/instagram.svg" alt="instagram">
+				    <span class="bestka">Bestka</span>
+			    </div>
+			    <div class="col-3 sign">
+			        <a href="sign.html" class="sign">Вход/Регистрация</a>
+			    </div> 
 		    </div>
-	        <nav class="col-12 menu">
-		        <ul class="row justify-content-end menu__list">
-  	              <li class="col-2 menu__item"><a href="#" class="link menu__link">Home</a></li>
- 	               <li class="col-2 menu__item"><a href="#" class="link menu__link">Features</a></li>
-           	     <li class="col-2 menu__item"><a href="#" class="link menu__link">Pricing</a></li>
-   	             <li class="col-4 menu__item"><a href="#" class="link btn menu__btn">Download Now</a></li>
-		        </ul>
-	        </nav>
-        </div>
-	
-        <div class="row">
-      	  <div class="col-12 sidebar">
-        	    <h1 class="sidebar__caption">A Powerful & Unique<br>App Landing Template</h1>
-                <p class="sidebar__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <ul class="list">
-        		    <li class="list__item"><i class="list__icon icon_white fas fa-check-circle"></i>Unlimited colors: banner with images, slider or video</li>
-        		    <li class="list__item"><i class="list__icon icon_white fas fa-check-circle"></i>Fully Responsive and powered by HTML5 and CSS3</li>
-     		       <li class="list__item"><i class="list__icon icon_white fas fa-check-circle"></i>Very easy to customize : set up in minutes</li>
-     	       </ul>
-        	    <form class="form" action="#">
-        	    	<button class="btn form__btn" type="submit">Start Exploring Us</button>
-				</form>
-       	 </div>
-      	  <div class="col d-none d-xl-block">
-      	  </div>
-        </div>
-    </header>
-    
-    <section class="container features"> 
-        <div class="row features__row">
-            <div class="col-12 feature">
-                <i class="feature__icon fas fa-tags"></i>
-                <h3 class="feature__caption">Sell any product online</h3>
-                <p class="feature__desc">Over 92% of computers are infected with Adware and spyware. Such software is</p>
-            </div>
-            <div class="col-12 feature">
-                <i class="feature__icon fas fa-cog"></i>
-            	<h3 class="feature__caption">Very easy to customize</h3>
-           	 <p class="feature__desc">Many of us are so used to working on a computer desktop that when it comes</p>
-            </div>
-            <div class="col-12 feature">
-                <i class="feature__icon fas fa-paint-brush"></i>
-           	 <h3 class="feature__caption">Unlimited colors</h3>
-           	 <p class="feature__desc">Audio player software is used to play back sound recordings in one of the</p>
-            </div>
-        </div>
-        
-        <div class="row features__row">
-            <div class="col-12 feature">
-                <i class="feature__icon fas fa-fire-extinguisher"></i>
-            	<h3 class="feature__caption">Responsive, HTML5, CSS3</h3>
-            	<p class="feature__desc">Computers have become ubiquitous in almost every facet of our lives. At work,</p>
-            </div>
-            <div class="col-12 feature">
-                <i class="feature__icon fas fa-file-alt"></i>
-            	<h3 class="feature__caption">Designed to convert</h3>
-          	  <p class="feature__desc">If you are looking for a new way to promote your business that won’t cost</p>
-            </div>
-            <div class="col-12 feature">
-                <i class="feature__icon fas fa-life-ring"></i>
-                <h3 class="feature__caption">With no boundaries</h3>
-                <p class="feature__desc">Now, if you are interested in being the best player, getting really good money</p>
-            </div>
-        </div>
-    </section>
-    
-    <section class="container">
-        <div class="row">
-        	<div class="col iphone">
-        	</div>
-        	<div class="col wrap">
-                <div class="aside">
-        			<h2 class="aside__caption">We don’t leave you stranded</h2>
-        			<p class="aside__text">Everyone’s reasons for learning user interface design are different. If you’re already a developer, or a PM, or a UX designer, why develop this totally separate skill?</p>
-        			<p class="aside__desc">Everyone’s reasons for learning user interface design are different. If you’re already a developer, or a PM, or a UX designer, why develop this totally separate skill? 
-                                           If you’re already a developer, or a PM, or a UX designer.</p>
-        			<ul class="list">
-        			    <li class="list__item"><i class="list__icon icon_black fas fa-check-circle"></i>Unlimited colors: banner with images, slider or video</li>
-      	  		    <li class="list__item"><i class="list__icon icon_black fas fa-check-circle"></i>Fully Responsive and powered by HTML5 and CSS3</li>
-     			       <li class="list__item"><i class="list__icon icon_black fas fa-check-circle"></i>Very easy to customize : set up in minutes</li>
-     		       </ul>
+		    <h1>Прокачай свой</h1>
+		    <div class="row justify-content-center">
+			    <div class="col-10 col-sm-8 slider-2">
+			        <div>
+                        <span class="social">Инстаграм</span>
+                    </div>
+			        <div>
+                        <span class="social">Facebook</span>   
+                    </div>
+                    <div>
+                        <span class="social">Twitter</span>
+                    </div>
+                    <div>
+                        <span class="social">Youtube</span>
+                    </div>
+                    <div>
+                        <span class="social">Telegram</span>
+                    </div>
+                    <div>
+                        <span class="social">Tik Tok</span>
+                    </div>
                 </div>
-        	</div>
-        </div>
-    </section>
-    
+		    </div>
+		    
+		    <!-- Слайдер -->
+		    <div class="row justify-content-center">
+			    <div class="d-none d-sm-block col-1">
+		            <img src="img/prev.png" alt="" class="prev">
+		        </div>
+	            <div class="col-12 col-sm-10 col-md-8 slider">
+		            <div>
+			            <img src="img/follower.svg" alt="">
+			            <span>1000 подписчиков<br>30 руб</span>
+		            </div>
+		            <div>
+			            <img src="img/play-button.svg" alt="">
+			            <span>1000 просмотров<br>5 руб</span>
+		            </div>
+		            <div>
+			            <img src="img/likes.svg" alt="">
+			            <span>1000 лайков<br>5 рублей</span>
+		            </div>
+		            <div>
+			            <img src="img/wallet.svg" alt="">
+			            <span>Более 20 способов<br>пополнения</span>
+		            </div>
+		            <div>
+			            <img src="img/auto.svg" alt="">
+			            <span>Все<br>автоматически</span>
+		            </div>
+		            <div>
+			            <img src="img/bonus.svg" alt="">
+			            <span>Бонусы<br>к заказам</span>
+		            </div>
+	            </div>
+	            <div class="d-none d-sm-block col-1">
+		            <img src="img/next.png" alt="" class="next">
+	            </div>
+	        </div>
+	    </div>
+	</header>
+	
+	<main>
+		<div class="container">
+		    <h2>Наши услуги</h2>
+		    <div id="tabs">
+			    <!-- Кнопки -->
+			    <div class="row no-gutters tabs-nav">
+			        <div class="col-4 col-lg-2">
+				        <a href="#tab-1">
+					        <span>Подписчики</span>
+					        <img src="img/folowers.png" alt="folowers">
+	                    </a>
+				    </div>
+				    <div class="col-4 col-lg-2">
+					    <a href="#tab-2">
+					        <span>Лайки</span>
+					        <img src="img/likes.png" alt="likes">
+					    </a>
+				    </div>
+			        <div class="col-4 col-lg-2">
+					     <a href="#tab-3">
+					        <span>Просмотры</span>
+					        <img src="img/views.png" alt="views">
+					     </a>
+				    </div>
+				    <div class="col-4 col-lg-2">
+			            <a href="#tab-4">
+					        <span>Комментарии</span>
+					        <img src="img/comments.png" alt="comments">
+			            </a>
+			        </div>
+			        <div class="col-4 col-lg-2">
+			            <a href="#tab-5">
+					        <span>IGTV</span>
+					        <img src="img/igtv.png" alt="igtv">
+					    </a>
+				    </div>
+				    <div class="col-4 col-lg-2">
+			            <a href="#tab-6">
+					        <span>Stories</span>
+					        <img src="img/stories.png" alt="stories">
+			            </a>
+			        </div>
+			    </div>
+			    
+			    <!-- Описания -->
+			    <div class="container tabs-items">
+				    <div class="row tabs-items desc" id="tab-1">
+					    <p class="col-12 col-md-4">Количество подписчиков — главный показатель популярности крупных сообществ в Инстаграм.</p>
+                        <p class="col-12 col-md-4">Качественная накрутка подписчиков - сложный и трудоемкий процесс. Каждый опытный пользователь однажды сталкивался с массовой отпиской накрученных подписчиков. У нас вы можете выбрать накрутку подписчиков по различным критериям, в том числе с гарантией от списания.</p>
+                        <p class="col-12 col-md-4">Накрутка подписчиков позволяет повысить авторитет в глазах потенциальных клиентов и поклонников. Аудитория относится лояльнее к сообществам с большим количеством подписчиков. Присоединяется больше участников и поступает больше выгодных предложений.</p>
+				    </div>
+				    <div class="row tabs-items desc" id="tab-2">
+					    <p class="col-12 col-md-4">Количество лайков — первое, на что обращает внимание каждый пользователь Инстаграм.</p>
+                        <p class="col-12 col-md-4">Благодаря лайкам публикации попадают в топ и рекомендуемое. Чтобы попасть в топ абсолютного большинства подборок инстаграм, достаточно в короткие сроки получить на свою публикацию всего несколько тысяч лайков.</p>
+                        <p class="col col-md-4">Считается, что эталон количества лайков под каждой публикацией - 10% от количества подписчиков на данной странице. Если лайков значительно меньше, это сразу бросается в глаза и вызывает недоверие.</p>
+				    </div>
+				    <div class="row tabs-items desc" id="tab-3">
+					    <p class="col-12 col-md-4">Просмотры — главный показатель количества живой аудитории на странице.</p>
+                        <p class="col-12 col-md-4">Просмотры пришли на замену лайкам под видео-публикациями. Просмотры явно дают понять какой охват аудитории имеют публикации на вашей странице, есть ли активный трафик на публикации или у вас активничают только боты.</p>
+                        <p class="col-12 col-md-4">Это очень важный показатель, которым часто пренебрегают. А ведь количество просмотров должно быть значительно больше количества лайков. Если под видео мало просмотров - это сразу выдает нехватку на странице живой аудитории.</p>
+				    </div>
+				    <div class="row tabs-items desc" id="tab-4">
+					    <p class="col-12 col-md-4">Комментарии — важнейший социальный показатель активной аудитории.</p>
+                        <p class="col-12 col-md-4">Комментарии сложнее всего поддаются накрутке и они влияют как на ранжирование в инстаграм, так и на рейтинг в глазах пользователей. С достаточным количеством комментариев можно легко попасть в топ подборок хештегов и геометок, а также в рекомендуемые.</p>
+                        <p class="col-12 col-md-4">Пользователи чаще делятся своим мнением под публикациями, которые уже кто-то прокомментировал. Чем больше на странице комментариев, тем она кажется привлекательнее для случайных посетителей и постоянных подписчиков.</p>
+				    </div>
+				    <div class="row tabs-items desc" id="tab-5">
+					    <p class="col-12 col-md-4">Инстаграм совсем недавно запустил свой собственный ИнстаграмТВ или, как он официально называется, IGTV.</p>
+                        <p class="col-12 col-md-4">Любой пользователь Инстаграм может создать собственный канал в IGTV, на котором он сможет делиться своими видео с поклонниками.</p>
+                        <p class="col-12 col-md-4">У нас вы можете сделать ваше видео в IGTV популярным ! Каким образом ? Вы можете добавить просмотры на видео , лайки. И все это по низким ценам</p>
+				    </div>
+				    <div class="row tabs-items desc" id="tab-6">
+					    <p class="col-12 col-md-4">Вы можете накрутить себе просмотры в Story , не понимаете о чем речь ? читайте ниже</p>
+                        <p class="col-12 col-md-4">Stories – это минирепортажи со сроком действия в 24 часа, им нельзя поставить лайк, их невозможно прокомментировать. Можно только написать сообщение напрямую автору. Посты удаляются автоматически, не оставляя после себя упоминаний.</p>
+                        <p class="col-12 col-md-4">250 миллионов человек по всему миру ежедневно используют сервис Instagram Stories. Пользователи до 25 лет ежедневно проводят в этой соцсети до 32 минут, люди старше – по 24 минуты. В любом случае этого хватит, чтобы привлечь внимание к вашим товарам и услугам. Около 70% всех сторис просматривают со звуком. И около половины используют название аккаунта со значком @, что позволяет сразу перейти по ссылке.</p>
+				    </div>
+			    </div>
+		    
+		    </div>
+		    <div class="logo logo-2">
+			    <img src="img/instagram.svg" alt="instagram">
+			    <span class="bestka">Bestka</span>
+		    </div>
+		    <div class="year">2019</div>
+		</div>
+	</main>
+	
+	<!-- Scripts -->
+	<script src="js/jquery-3.4.0.min.js"></script>
+	<script src="slick/slick.min.js"></script> 
+	<script>
+		$(document).ready(function(){
+			$('.slider').slick({
+				arrows: true,
+				infinite: true,
+				slidesToShow: 3,
+				slidesToScroll: 2,
+				autoplay: true,
+				autoplaySpeed: 3000,
+				dots: true,
+				prevArrow: $('.prev'),
+				nextArrow: $('.next'),
+			});
+		});
+		
+		$(document).ready(function(){
+			$('.slider-2').slick({
+				arrows: false,
+				infinite: true,
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				autoplay: true,
+				autoplaySpeed: 2000,
+			});
+		});
+	</script>
+	<script>
+        $(function() {
+            var tab = $('#tabs .tabs-items > div'); 
+            tab.hide().filter(':first').show(); 
+            
+            $('#tabs .tabs-nav a').click(function(){
+                tab.hide(); 
+                tab.filter(this.hash).show(); 
+                $('#tabs .tabs-nav a').removeClass('active');
+                $(this).addClass('active');
+                return false;
+            }).filter(':first').click();
+        });
+    </script>
 </body>
-</html> 
+</html>
+    
